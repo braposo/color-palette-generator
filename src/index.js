@@ -23,7 +23,13 @@ const Colour = ({ baseColour, luminance }) => {
         .hex();
 
     return (
-        <div style={{ display: "inline-block", marginRight: 10 }}>
+        <div
+            style={{
+                display: "inline-block",
+                marginRight: 10,
+                marginBottom: 5,
+            }}
+        >
             <div
                 style={{
                     height: 50,
@@ -31,7 +37,15 @@ const Colour = ({ baseColour, luminance }) => {
                     background: colour,
                 }}
             />
-            <div>{colour}</div>
+            <div
+                style={{
+                    fontSize: 12,
+                    fontFamily:
+                        '-apple--system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+                }}
+            >
+                {colour}
+            </div>
         </div>
     );
 };
