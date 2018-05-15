@@ -1,0 +1,21 @@
+{
+    "name": "colour-palette-generator",
+    "version": "1.0.0",
+    "description":
+        "This generates colour palettes based on a base colour. It uses luminance across the different shades to ensure it stays consistent in the different colours.",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+        "chroma-js": "1.3.7",
+        "react": "16.3.2",
+        "react-dom": "16.3.2",
+        "react-scripts": "1.1.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
